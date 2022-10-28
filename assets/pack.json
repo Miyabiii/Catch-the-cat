@@ -1,0 +1,116 @@
+{
+  "cat": {
+    "path": "./assets/images",
+    "defaultType": "image",
+    "files": [
+      {
+        "key": "L01",
+        "url": "left/1.png"
+      },
+      {
+        "key": "L02",
+        "url": "left/2.png"
+      },
+      {
+        "key": "L03",
+        "url": "left/3.png"
+      },
+      {
+        "key": "L04",
+        "url": "left/4.png"
+      },
+      {
+        "key": "L05",
+        "url": "left/5.png"
+      }, {
+        "key": "BL01",
+        "url": "bottom_left/1.png"
+      },
+      {
+        "key": "BL02",
+        "url": "bottom_left/2.png"
+      },
+      {
+        "key": "BL03",
+        "url": "bottom_left/3.png"
+      },
+      {
+        "key": "BL04",
+        "url": "bottom_left/4.png"
+      },
+      {
+        "key": "BL05",
+        "url": "bottom_left/5.png"
+      }, {
+        "key": "TL01",
+        "url": "top_left/1.png"
+      },
+      {
+        "key": "TL02",
+        "url": "top_left/2.png"
+      },
+      {
+        "key": "TL03",
+        "url": "top_left/3.png"
+      },
+      {
+        "key": "TL04",
+        "url": "top_left/4.png"
+      },
+      {
+        "key": "TL05",
+        "url": "top_left/5.png"
+      }
+    ]
+  },
+
+  "preload": {
+    "files": [
+      {
+        "type": "image",  
+        "key": "snow", 
+        "url": "./assets/snow.png"
+      },
+      {
+        "type": "image",  
+        "key": "sound_line", 
+        "url": "./assets/sound_line.png"
+      },
+      {
+        "type": "image",  
+        "key": "sound_button", 
+        "url": "./assets/sound_button.png"
+      },
+      {
+        "type": "image",
+        "key": "logo", 
+        "url": "./assets/logo.png"
+      },
+      {
+        "type": "spritesheet",
+        "key": "walking_cat",
+        "url": "./assets/walkcat.png",
+        "frameConfig": {
+          "frameWidth": 100,
+          "frameHeight": 76
+        }
+      },
+      {
+        "type": "audio",
+        "key": "block_sound", 
+        "url": "./assets/block_sound.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "button_sound", 
+        "url": "./assets/button_sound.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "bgm", 
+        "url": "./assets/Candy_Wind.mp3"
+      }
+
+    ]
+  }
+}
